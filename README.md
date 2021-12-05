@@ -8,3 +8,33 @@ One needs to find the requirements.
 -  2、Find the last "<4" element.
 -  3、Find the first ">4" element.
 -  4、Find the last "<=4" element.
+
+The following graph shows the corresponding numbers.
+<div align=center><img width="70%" src="1.png"/></div>
+
+## Pseudo-code
+
+```
+l=-1, r=N
+while l+1 != r
+   m=(l+r)/2
+   if IsBlue(m)  //IsBlue stands for condition
+       l=m
+    else
+       r=m
+return l or r
+```
+
+## Steps
+
+- 1. modeling: divide the blue and red areas, determine IsBlue ()
+- 2. determine whether to return L or R
+- 3. apply the algorithm template
+
+## Example Question 1
+
+
+
+
+
+
