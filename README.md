@@ -69,7 +69,7 @@ The remaining questions are similar to question 1.
      
      so, m_max=n-1
      
-  - Is it caught in a dead-end cycle?
+- Is it caught in a dead-end cycle?
   
   For (l+1=r), the next element of l is r. The loop exits immediately.
   
